@@ -1,4 +1,6 @@
 
+// this file controls the functionality of the buttons in the document
+
 function showLeetCodeVideos() {
     document.getElementById("leetCodeVideos").innerHTML =
     `
