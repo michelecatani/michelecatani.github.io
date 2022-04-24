@@ -76,7 +76,7 @@
                             <br><br>
                             I enrolled in the Honours Applied Computing program at the University of Windsor in May of 2021, and since then I've been focusing a lot more of my energy to programming.  Recently, I started a Youtube channel where I post solutions to LeetCode problems (as well as drone footage), so feel free to check that out! Just navigate to the "Socials" dropdown menu (it may be under the three little lines at the top right if you're on a mobile device) to see links to all my social network accounts.
                             <br><br>
-                            This website was built using a Bootstrap template, various scripts for the navbar and mobile responsiveness, and a stylesheet.  I hope you like it, and thanks again for taking the time to come here.
+                            This website was built using a Bootstrap template, various scripts for the navbar and mobile responsiveness, asynchronous JS to fetch my projects from Github's API, and a stylesheet.  I hope you like it, and thanks again for taking the time to come here.
                         </p>
                     </div>
                 </div>
