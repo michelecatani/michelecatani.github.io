@@ -23,8 +23,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    letsFetch();
-
     // Shrink the navbar 
     navbarShrink();
 
@@ -54,3 +52,5 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+letsFetch();
