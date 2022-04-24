@@ -1,13 +1,4 @@
 
-// FETCH DATA 
-// PARSE DATA
-// ACT ON DATA
-// CATCH ERRORS
-
-function hello() {
-    document.getElementById("demo").innerHTML = "Hello Javascsssdfffffsssasdfript"
-}
-
 function showLeetCodeVideos() {
     document.getElementById("leetCodeVideos").innerHTML =
     `
