@@ -50,7 +50,6 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
 
 letsFetch();
