@@ -5,7 +5,7 @@
 // CATCH ERRORS
 
 function hello() {
-    document.getElementById("demo").innerHTML = "Hello Javascsssssasdfript"
+    document.getElementById("demo").innerHTML = "Hello Javascsssdfffffsssasdfript"
 }
 
 function showLeetCodeVideos() {
