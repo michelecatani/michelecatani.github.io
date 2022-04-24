@@ -165,7 +165,7 @@
                             <p class="text-white-50">
                                 Below are brief descriptions and links to all the projects I've uploaded to Github.    
                             </p>
-                        <div id="projectsDisplay" class="row g-2 row-cols-1 row-cols-lg-3">
+                        <div id="projectsDisplay" class="row g-5 row-cols-1 row-cols-lg-3">
                             
                         </div>
                     </div>
@@ -176,10 +176,10 @@
         <!--- template for project --->
 
         <template id="projTemplate">
-            <div class="col" id="templateBorder">
+            <div class="col-md-3" id="templateBorder">
                 <div>
                     <a id="projLink" target="_blank" rel="noreferrer noopener">
-                        <h3 id="projName"></h3>
+                        <h3 id="projName" class="projectName"></h3>
                     </a>
                     <p class="text-white-50" id="projDescription"></p>
                 </div>
