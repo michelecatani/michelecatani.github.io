@@ -96,10 +96,12 @@ body {
 
 .resumeListHeader {
   text-align: left;
+  color: black;
 }
 
 .resumeListItem {
   text-align: left;
+  color: black;
 }
 
 h3, h2, h1 {
