@@ -656,7 +656,7 @@ progress {
   color: white;
   padding: 50px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 20px;
   border-radius: 100px;
 }
@@ -11755,16 +11755,18 @@ body {
   padding: 5rem 0;
 }
 
-.templateBorder {
-    border-color: blue;
-    border-radius: 10px;
-    border-width: 1px;
-  }
+#templateBorder {
+  border-color: blue;
+  border-radius: 10px;
+  border-width: 1px;
+}
   
 .projectName {
-  font-size: 18px;
+  font-size: 15px;
+  text-align: center;
 }
   
 #projDescription {
   text-align: center;
+  font-size: 12px;
 }
