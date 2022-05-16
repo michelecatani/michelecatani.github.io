@@ -1,6 +1,7 @@
 
-// this file controls the functionality of the buttons in the document
+// this file controls the functionality of the buttons in the document... file is unused for now, may be used again later.
 
+/*
 function showLeetCodeVideos() {
     document.getElementById("leetCodeVideos").innerHTML =
     `
@@ -42,3 +43,4 @@ function hideAerialVideos() {
 
     document.getElementById("aerialButton").innerHTML = `<button onClick="showAerialVideos()" class="btn btn-primary">See Videos</button>`
 }
+*/

@@ -30,19 +30,9 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
                         <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#aerial">Aerial Videography</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#leetcode">LeetCode Tutorials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#youtube">YouTube</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Socials</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" class="nav-link" target="_blank" rel="noreferrer noopener" href="https://ca.linkedin.com/in/michele-catani-294136134">LinkedIn</a>
-                                <a class="dropdown-item" class="nav-link" target="_blank" rel="noreferrer noopener" href="https://studio.youtube.com/channel/UCXF6KQUCbUh4cjcdUc2bjbQ">Youtube</a>
-                                <a class="dropdown-item" class="nav-link" target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/mcatani7/?hl=en">Instagram</a>
-                                <a class="dropdown-item" class="nav-link" target="_blank" rel="noreferrer noopener" href="https://github.com/michelecatani">Github</a>
-                                <a class="dropdown-item" class="nav-link" target="_blank" rel="noreferrer noopener" href="https://leetcode.com/catanim/">LeetCode</a>
-                            </div>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,16 +40,11 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <!-- get this to work so it doesnt move welcome out of the way TODO
-                <div class ="small-troll-text">
-                    <h6 class ="text-white-50 mb-troll"> i liek space 2 lulz</h6>
-                </div>
-            -->
                 <div class="d-flex justify-content-center">
                     
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">WELCOME</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">My name is Michele Catani. I'm a CS student at the University of Windsor as well as a budding drone pilot.  Thanks for checking out my website!</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">My name is Michele Catani. I like writing code, creating content, and expanding my horizons.</h2>
                         <a class="btn btn-primary" href="#about">Let's go!</a>
                     </div>
                 </div>
@@ -74,7 +59,7 @@
                         <p class="text-white-50">
                             I started programming as a hobbyist in 2017, but I had different career ideas during those times, so I was never able to take it seriously.  However, I soon realized that I wanted to spend my professional life programming, and so I changed course to do so.
                             <br><br>
-                            I enrolled in the Honours Applied Computing program at the University of Windsor in May of 2021, and since then I've been focusing a lot more of my energy to programming.  Recently, I started a Youtube channel where I post solutions to LeetCode problems (as well as drone footage), so feel free to check that out! Just navigate to the "Socials" dropdown menu (it may be under the three little lines at the top right if you're on a mobile device) to see links to all my social network accounts.
+                            I enrolled in the Honours Applied Computing program at the University of Windsor in May of 2021, and since then I've been focusing a lot more of my energy to programming.  
                             <br><br>
                             This website was built using a Bootstrap template, various scripts for the navbar and mobile responsiveness, asynchronous JS to fetch my projects from Github's API, and a stylesheet.  I hope you like it, and thanks again for taking the time to come here.
                         </p>
@@ -114,43 +99,23 @@
                             <ul>
                                 <li class="resumeListItem">Aquariums</li>
                                 <li class="resumeListItem">Brazilian Jiu Jitsu and weightlifting</li>
-                                <li class="resumeListItem">Aerial Videography</li>
+                                <li class="resumeListItem">Content creation</li>
                             </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <section class = "theVideo-section text-center" id="aerial">
+        <section class = "theVideo-section text-center" id="youtube">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="text-white-50 mb-4">Aerial Videography</h2>
+                        <h2 class="text-white-50 mb-4">YouTube</h2>
                             <p class="text-white-50">
-                                I bought my first drone in April of 2022. I want to hone my skills to the point where my clips tell a story and move the audience on an emotional level.  Check out my most recent videos below, or you can click <a href= "https://www.youtube.com/playlist?list=PLa0e8IzKsZnwWNICBCVY134fmiy1M9_1Z" target="_blank" rel="noreferrer noopener">this link</a> to go to the YouTube playlist!    
+                                I started posting to my YouTube channel in February of 2022, initially posting solutions to LeetCode problems.  
+                                However, I soon broadened the scope of my channel. <a href= "https://www.youtube.com/playlist?list=PLa0e8IzKsZnwiAEQTuDxQp_l8NyHfM_Q7" target="_blank" rel="noreferrer noopener">See for yourself!</a>     
                             </p>
-                            <div  id="aerialButton">
-                                <button onClick="showAerialVideos()" class="btn btn-primary">See Videos</button>
-                            </div>
-                            <div id="aerialVideos">
+                            <div id="youtubeVideo">
 
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class = "thePT-section text-center" id="leetcode">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2 class="text-black-100 mb-4">LeetCode tutorials</h2>
-                            <p class="text-black-100">
-                            I first started grinding LeetCode in December 2021.  I found it a great way to implement a lot of the more abstract data structures that we mentioned in passing in the Data Structures and Algorithms course, and since February 2022 I've been posting video explanations to Youtube.  Check out my most recent videos below, or you can click <a href= "https://www.youtube.com/playlist?list=PLa0e8IzKsZnwiAEQTuDxQp_l8NyHfM_Q7" target="_blank" rel="noreferrer noopener">this link</a> to go to the YouTube playlist!
-                            </p>
-                            <div  id="leetCodeButton">
-                                <button onClick="showLeetCodeVideos()" class="btn btn-primary">See Videos</button>
-                            </div>
-                            <div id="leetCodeVideos">
-                            
                             </div>
                     </div>
                 </div>
@@ -185,7 +150,7 @@
             </div>
         </template>
 
-        <footer class="footer bg-white small text-center text-black-50">
+        <footer class="footer bg-white small text-center text-black-50" id="socials">
             <div class="my-3 my-lg-0">
                 <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/mcatani7/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 <a class="btn btn-dark btn-social mx-2" href="https://github.com/michelecatani" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fab fa-github"></i></a>
