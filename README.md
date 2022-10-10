@@ -1,2 +1,1 @@
-# michelecatani.github.io
-Personal Site
+My new and minimalistic personal site.  Click on folder called "oldSite" to see code for my previous personal site.
