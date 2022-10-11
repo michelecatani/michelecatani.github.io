@@ -51,8 +51,7 @@ img {
     animation: bigger 8s ease infinite;
 }
 
-@media screen and (orientation: landscape) {
-
+@media screen and (max-height: 600px) {
     #imageDiv {
         display: none;
     };
