@@ -2,8 +2,8 @@ index = 0;
 let magicDiv = document.getElementById("magicHappens");
 
 const messages = [
-    "Data Engineering Co-op at Teck Resources",
-    "Comp Sci student at University of Windsor",
+    "Experienced Data Engineer",
+    "Computer Science Graduate",
     "Lifelong learner"
 ]
 
